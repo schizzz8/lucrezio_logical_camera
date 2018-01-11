@@ -127,7 +127,7 @@ target_link_libraries(logical_camera_plugin
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
+  INCLUDE_DIRS src
 #  LIBRARIES lucrezio_logical_camera
   CATKIN_DEPENDS
   roscpp
